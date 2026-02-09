@@ -104,17 +104,19 @@ body {
 }
 
 .hero {
-  padding-top: 6.5rem;
+  padding-top: 5.5rem;
+}
+
+.hero-banner-logo {
+  display: block;
+  width: min(1120px, 92%);
+  margin: 0 auto 1.75rem;
+  max-height: 260px;
+  object-fit: contain;
 }
 
 .hero-inner {
   max-width: 780px;
-}
-
-.hero-logo {
-  width: clamp(120px, 22vw, 220px);
-  height: auto;
-  margin-bottom: 1rem;
 }
 
 .kicker {
@@ -222,5 +224,9 @@ h2 {
 @media (max-width: 840px) {
   .nav-wrap {
     flex-direction: column;
+  }
+
+  .hero-banner-logo {
+    max-height: 180px;
   }
 }
