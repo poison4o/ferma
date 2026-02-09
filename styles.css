@@ -135,8 +135,7 @@ button {
   display: block;
   width: min(100%, var(--hero-logo-max-width));
   margin: 0 auto 1.75rem;
-  max-height: 340px;
-  object-fit: contain;
+  height: auto;
 }
 
 .hero-inner {
@@ -243,6 +242,7 @@ h2 {
 .contact-logo {
   width: min(100%, 460px);
   margin-top: 1rem;
+  height: auto;
 }
 
 .map-wrap iframe {
@@ -262,11 +262,6 @@ h2 {
   .nav-wrap {
     flex-direction: column;
   }
-
-  .hero-banner-logo {
-    max-height: 220px;
-  }
-
 }
 
 @media (max-width: 700px) {
