@@ -148,8 +148,8 @@ h2 {
 
 .shop-layout {
   display: grid;
-  grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1.1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem;
   align-items: start;
 }
 
@@ -166,29 +166,33 @@ h2 {
   margin-top: 0.4rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem;
+  gap: 1.5rem;
 }
 
 .product-card {
   background: var(--card);
   border: 1px solid #e0e7e1;
   border-radius: var(--radius);
-  padding: 1.3rem;
+  padding: 1.75rem;
+  min-height: 185px;
+  box-shadow: 0 10px 22px rgba(28, 54, 39, 0.07);
 }
 
 .product-card h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
 }
 
 .product-card p {
   color: var(--muted);
-  margin: 0.5rem 0;
+  margin: 0.7rem 0;
+  font-size: 1.02rem;
 }
 
 .price {
   font-weight: 800;
   color: var(--accent-2);
+  font-size: 1.08rem;
 }
 
 .delivery-list {
