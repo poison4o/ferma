@@ -9,20 +9,49 @@
   --hero-logo-max-width: 1040px;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
+  min-height: 100%;
   font-family: 'Manrope', sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
 }
 
 .container {
@@ -33,10 +62,17 @@ body {
 .header {
   position: sticky;
   top: 0;
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   background: rgba(246, 248, 245, 0.82);
   border-bottom: 1px solid #dde3dd;
   z-index: 20;
+}
+
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .header {
+    background: rgba(246, 248, 245, 0.98);
+  }
 }
 
 .nav-wrap {
