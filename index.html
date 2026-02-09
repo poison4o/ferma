@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Food | Чиста храна, чиста енергия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Bio Food Home">
+          <img src="assets/logo.svg" alt="Bio Food logo" class="brand-logo" />
+          <span>Bio Food</span>
+        </a>
+
+        <nav class="nav" aria-label="Основна навигация">
+          <a href="#home" data-i18n="nav.home">Начало</a>
+          <a href="#about" data-i18n="nav.about">За нас</a>
+          <a href="#shop" data-i18n="nav.shop">Магазин</a>
+          <a href="#delivery" data-i18n="nav.delivery">Условия за доставка</a>
+          <a href="#contact" data-i18n="nav.contact">Контакти</a>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switcher">
+          <button data-lang="bg" class="active">BG</button>
+          <button data-lang="en">EN</button>
+          <button data-lang="ru">RU</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-inner">
+          <p class="kicker" data-i18n="hero.kicker">100% био продукти</p>
+          <h1 data-i18n="hero.title">Минималистична грижа за теб и природата.</h1>
+          <p data-i18n="hero.desc">
+            Открий селекция от био храни с ясен произход, сезонни предложения и устойчиви
+            практики.
+          </p>
+          <a class="btn" href="#shop" data-i18n="hero.cta">Разгледай магазина</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 data-i18n="about.title">За нас</h2>
+          <p data-i18n="about.text">
+            Ние сме екип от хора, които вярват, че чистата храна е най-добрата инвестиция.
+            Работим с малки ферми, без компромис с качеството и без излишни добавки.
+          </p>
+        </div>
+      </section>
+
+      <section id="shop" class="section">
+        <div class="container">
+          <h2 data-i18n="shop.title">Магазин</h2>
+          <p class="section-intro" data-i18n="shop.intro">12 внимателно подбрани био продукта.</p>
+          <div class="product-grid" id="productGrid"></div>
+        </div>
+      </section>
+
+      <section id="delivery" class="section">
+        <div class="container">
+          <h2 data-i18n="delivery.title">Условия за доставка</h2>
+          <ul class="delivery-list">
+            <li data-i18n="delivery.item1">Доставка до 24 часа за София и до 48 часа за страната.</li>
+            <li data-i18n="delivery.item2">Безплатна доставка за поръчки над 80 лв.</li>
+            <li data-i18n="delivery.item3">Еко опаковки и възможност за безконтактно получаване.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div>
+            <h2 data-i18n="contact.title">Контакти</h2>
+            <p data-i18n="contact.address">гр. София, ул. „Зелена храна“ 12</p>
+            <p data-i18n="contact.phone">Телефон: +359 888 123 456</p>
+            <p data-i18n="contact.email">Имейл: hello@biofood.bg</p>
+            <img src="assets/logo.svg" alt="Bio Food logo" class="contact-logo" />
+          </div>
+          <div class="map-wrap">
+            <iframe
+              title="Bio Food Location"
+              src="https://www.google.com/maps?q=Sofia+center&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <small data-i18n="footer">© 2026 Bio Food. Всички права запазени.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
