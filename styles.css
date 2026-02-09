@@ -56,9 +56,8 @@ body {
 }
 
 .brand-logo {
-  display: block;
-  width: clamp(120px, 14vw, 180px);
-  height: auto;
+  width: 40px;
+  height: 40px;
 }
 
 .nav {
@@ -112,13 +111,12 @@ body {
   display: block;
   width: min(1120px, 92%);
   margin: 0 auto 1.75rem;
-  max-height: 320px;
+  max-height: 260px;
   object-fit: contain;
 }
 
 .hero-inner {
   max-width: 780px;
-  margin: 0 auto;
 }
 
 .kicker {
@@ -169,20 +167,20 @@ h2 {
 .product-grid {
   margin-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
 }
 
 .product-card {
   background: var(--card);
   border: 1px solid #e0e7e1;
   border-radius: var(--radius);
-  padding: 1.3rem;
+  padding: 1rem;
 }
 
 .product-card h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .product-card p {
@@ -229,12 +227,6 @@ h2 {
   }
 
   .hero-banner-logo {
-    max-height: 220px;
-  }
-}
-
-@media (max-width: 700px) {
-  .product-grid {
-    grid-template-columns: 1fr;
+    max-height: 180px;
   }
 }
