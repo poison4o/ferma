@@ -1,0 +1,22 @@
+<svg width="2048" height="370" viewBox="0 0 2048 370" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Еко ферма Дюлгери</title>
+  <desc id="desc">Широко лого с надпис ЕКО ФЕРМА, стилизирана буква D с глава на крава и текст дюлгери.</desc>
+
+  <g fill="#069B45">
+    <text x="12" y="238" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="700" letter-spacing="2">ЕКО ФЕРМА</text>
+  </g>
+
+  <g transform="translate(700 48)">
+    <path d="M0 0H220C290 0 342 30 371 89C386 120 392 154 392 190C392 235 383 273 364 303C333 351 280 370 209 370H0V0Z" fill="#049A43"/>
+    <path d="M0 0H115C95 42 89 93 97 153C104 206 125 266 157 317H0V0Z" fill="#005B2A"/>
+
+    <path d="M113 285C118 227 145 184 188 149C205 136 219 118 221 98C223 79 214 64 197 54C178 43 171 27 180 12C193 -9 229 -4 250 14C279 39 292 77 284 115C315 93 347 91 365 112C381 130 378 157 359 179C340 201 316 211 293 210C307 226 316 243 320 261C326 288 314 310 289 325C262 341 232 338 204 319C178 301 156 289 138 284C126 281 118 281 113 285Z" fill="#F0F0F0"/>
+
+    <path d="M130 308C149 271 179 239 221 212C252 193 271 166 276 132C280 103 271 78 250 58C266 69 280 86 290 106C299 126 302 146 298 167C294 189 281 209 260 225C232 246 210 272 192 303L130 308Z" fill="#FFFFFF"/>
+    <circle cx="288" cy="198" r="7" fill="#005B2A"/>
+  </g>
+
+  <g>
+    <text x="1100" y="252" font-family="'Comic Sans MS', 'Trebuchet MS', cursive" font-size="220" font-style="italic" font-weight="700" fill="#05A248" stroke="#21186D" stroke-width="8" paint-order="stroke fill">дюлгери</text>
+  </g>
+</svg>
