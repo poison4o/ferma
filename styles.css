@@ -108,7 +108,13 @@ body {
 }
 
 .hero-inner {
-  max-width: 720px;
+  max-width: 780px;
+}
+
+.hero-logo {
+  width: clamp(120px, 22vw, 220px);
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .kicker {
@@ -149,6 +155,11 @@ h2 {
 
 .section-intro {
   color: var(--muted);
+}
+
+.section-detail {
+  color: var(--muted);
+  max-width: 760px;
 }
 
 .product-grid {
