@@ -148,7 +148,7 @@ h2 {
 
 .shop-layout {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(260px, 0.95fr) minmax(0, 1.05fr);
   gap: 2rem;
   align-items: start;
 }
