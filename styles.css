@@ -41,28 +41,14 @@ body {
 .nav-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
   padding: 0.85rem 0;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  text-decoration: none;
-  color: var(--text);
-  font-weight: 800;
-}
-
-.brand-logo {
-  display: block;
-  width: clamp(120px, 14vw, 180px);
-  height: auto;
-}
-
 .nav {
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
@@ -110,7 +96,7 @@ body {
 
 .hero-banner-logo {
   display: block;
-  width: min(1120px, 92%);
+  width: 100%;
   margin: 0 auto 1.75rem;
   max-height: 320px;
   object-fit: contain;
